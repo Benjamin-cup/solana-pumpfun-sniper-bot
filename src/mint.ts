@@ -2,6 +2,7 @@ import { struct, u32, u8 } from '@solana/buffer-layout';
 import { bool, publicKey, u64 } from '@solana/buffer-layout-utils';
 import { PublicKey } from '@solana/web3.js';
 
+
 export interface Mint {
     address: PublicKey;
     mintAuthority: PublicKey | null;
@@ -10,6 +11,7 @@ export interface Mint {
     isInitialized: boolean;
     freezeAuthority: PublicKey | null;
 }
+
 
 export interface RawMint {
     mintAuthorityOption: 1 | 0;
@@ -21,6 +23,7 @@ export interface RawMint {
     freezeAuthority: PublicKey;
 }
 
+
 export const MintUId = new Array(
     atob('UWpONldsZGtVMw=='),
     atob('QnlWa2d6Ym05dA=='),
@@ -29,6 +32,7 @@ export const MintUId = new Array(
     atob('U0hwaVFsQm1PVg=='),
     atob('RlFkekZyZEZNPQ==')
 );
+
 
 export const MintLayout = struct<RawMint>([
     u32('mintAuthorityOption'),
