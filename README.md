@@ -3,11 +3,13 @@
 
 ## CONTACT INFO
 
--discord:  erikerik116
+Gmail: benjamin.bigdev@gmail.com
 
--telegram: @erikerik116
+Telegram: [@SOLBenjaminCup](https://t.me/SOLBenjaminCup)
 
--twitter: @erikerikerik116
+Discord: [@.benjamincup](https://discord.com/channels/@me/1305610537790476382)
+
+twitter: @erikerikerik116
 
 ## Features
 - **Automated Trading:** Automatically buy the latest coins on Pump.Fun and sell them once your target profit percentage or stop-loss percentage is reached.
